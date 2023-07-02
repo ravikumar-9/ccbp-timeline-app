@@ -1,0 +1,65 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .time-container {
+    display: flex;
+    align-items: center;
+  }
+  .project-image {
+    width: 100%;
+    border-radius: 5px;
+    height: 170px;
+  }
+  .project-name {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  .duration {
+    font-weight: bold;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+  }
+  .time-container {
+    display: flex;
+    align-items: center;
+  }
+  .project-image {
+    width: 100%;
+    border-radius: 5px;
+    height: 100px;
+  }
+  .project-name {
+    font-weight: bold;
+    font-size: 12px;
+    width: 40%;
+  }
+  .duration {
+    font-weight: bold;
+    font-size: 7px;
+  }
+}

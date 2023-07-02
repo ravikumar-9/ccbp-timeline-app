@@ -1,0 +1,44 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+  .tag-name {
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    background-color: #0967d2;
+    padding: 3px;
+    border-radius: 2px;
+    border: none;
+    height: 27px;
+    width: max-content;
+    text-align: center;
+    margin: 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+  }
+  .tag-name {
+    font-weight: bold;
+    font-size: 7px;
+    color: black;
+    background-color: #0967d2;
+    padding: 3px;
+    border-radius: 2px;
+    border: none;
+    height: 27px;
+    width: max-content;
+    text-align: center;
+    margin: 3px;
+  }
+}
